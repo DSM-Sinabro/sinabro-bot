@@ -1,0 +1,23 @@
+{
+  "name": "sinabro-bot",
+  "version": "1.0.0",
+  "description": "this is sinabro slack bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "slack"
+  ],
+  "author": "river-stone-jin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "cheerio": "^0.22.0",
+    "node-schedule": "^1.2.0",
+    "request": "^2.81.0",
+    "slack-client": "^2.0.6",
+    "string-similarity": "^1.1.0"
+  }
+}
